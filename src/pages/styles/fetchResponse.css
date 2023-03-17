@@ -1,0 +1,69 @@
+.response-container{
+    color: white;
+}
+
+#responses{
+    padding-top: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#response-card{
+    height: 11.8rem;
+    width: 100px;
+    border: 1px solid black;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: black;
+    color: white;
+}
+
+#image-container{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+    background: white;
+}
+
+#response-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+#video-name{
+    text-align: center;
+    font-size: 0.45rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 90%;
+    height: 30px;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+#description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+    font-size: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -0.4rem;
+    color: gray;
+    padding-bottom: 0.1em;
+}
+
+/* #year-of-production{
+    text-align: center;
+    font-size: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -0.4rem;
+    color: gray;
+    padding-bottom: 0.1em;
+} */
